@@ -12,36 +12,41 @@ const projects = [
     category: "Full Stack Web App",
     tools: "React, Node.js, PostgreSQL, Python, AI/ML",
     image: "/images/voyago.png",
+    link: "https://github.com/sameeermokhasi/voyago.git",
   },
   {
     name: "ForgeCI",
     category: "DevOps / CI-CD Engine",
     tools: "Node.js, React, Git, Docker, Webhooks",
     image: "/images/forgeci.png",
+    link: "https://github.com/sameeermokhasi/forgeCI.git",
   },
   {
     name: "VisionAI",
     category: "Metal disc inspector",
     tools: "React, ML Engines, Yolov8, Metal discs",
     image: "/images/visionai.png",
+    link: "https://github.com/sameeermokhasi/visual-prediction-system.git",
   },
   {
     name: "Traffic Optimizer",
     category: "AI Multi-Agent System",
     tools: "Python, FastAPI, YOLOv8, React, RAG",
     image: "/images/traffic.png",
+    link: "https://github.com/sameeermokhasi/traffic-optimizer.git",
   },
   {
-    name: "IP Spoofing Detector",
-    category: "Cybersecurity Tool",
-    tools: "Java, Computer Networking, Packet Analysis",
-    image: "/images/ipspoofing.png",
+    name: "Project: Fitness",
+    category: "Selling my knowledge on Topmate site",
+    image: "/images/topmate.png",
+    link: "https://topmate.io/sameer_mokhasi",
   },
   {
     name: "CloudCost AI",
     category: "Cloud cost optimization tool",
     tools: "Next.js, React, TypeScript, CSS, AI/ML",
     image: "/images/cloudcost.png",
+    link: "https://github.com/sameeermokhasi/cloud-guardian.git",
   },
 ];
 
@@ -105,7 +110,7 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image={project.image} alt={project.name} />
+              <WorkImage image={project.image} alt={project.name} link={project.link} />
             </div>
           ))}
         </div>

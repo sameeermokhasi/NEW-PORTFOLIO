@@ -6,12 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am a Computer Science (Business Studies) undergraduate at BMSCE with a strong interest in
-          Artificial Intelligence and problem-solving. I am passionate about leveraging technology to
-          design smarter solutions and enjoy learning by experimenting with new ideas. Alongside my
-          technical journey, I am also a content creator, where I independently produce and edit videos.
-          This blend of technical expertise and creative expression helps me continuously grow, innovate,
-          and communicate ideas effectively.
+          Computer Science (Business Studies) undergrad at BMSCE with a keen interest in AI and building solutions that actually matter. I like breaking down complex problems and crafting experiences , both through code and through content I independently produce and edit. Fitness is a core part of my lifestyle; the same drive that pushes me through a tough workout shapes how I approach challenges in tech and creativity. I'm always learning, always iterating, and always looking for the next big idea to explore.
         </p>
       </div>
     </div>

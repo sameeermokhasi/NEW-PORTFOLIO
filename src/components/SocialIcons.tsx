@@ -71,7 +71,7 @@ const SocialIcons = () => {
         </span>
         <span>
           <a href="https://topmate.io/sameer_mokhasi" target="_blank">
-            <FaXTwitter />
+            <img src="/images/topmate-logo.png" alt="Topmate" style={{ width: "24px", height: "24px", borderRadius: "50%" }} />
           </a>
         </span>
         <span>
@@ -80,7 +80,7 @@ const SocialIcons = () => {
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a className="resume-button" onClick={() => window.dispatchEvent(new CustomEvent("open-pdf", { detail: "/NEW_RESUME.pdf" }))} style={{ cursor: "pointer" }}>
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
