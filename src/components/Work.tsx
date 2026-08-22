@@ -15,11 +15,11 @@ const projects = [
     link: "https://github.com/sameeermokhasi/voyago.git",
   },
   {
-    name: "ForgeCI",
-    category: "DevOps / CI-CD Engine",
-    tools: "Node.js, React, Git, Docker, Webhooks",
-    image: "/images/forgeci.png",
-    link: "https://github.com/sameeermokhasi/forgeCI.git",
+    name: "CineSense",
+    category: "Movie Recommendation & Streaming Engine",
+    tools: "React, Node.js, PostgreSQL, Redis, Auth",
+    image: "/images/cinesense.png",
+    link: "https://cinesense-liard.vercel.app/",
   },
   {
     name: "VisionAI",
@@ -42,11 +42,11 @@ const projects = [
     link: "https://topmate.io/sameer_mokhasi",
   },
   {
-    name: "CloudCost AI",
-    category: "Cloud cost optimization tool",
-    tools: "Next.js, React, TypeScript, CSS, AI/ML",
-    image: "/images/cloudcost.png",
-    link: "https://github.com/sameeermokhasi/cloud-guardian.git",
+    name: "ForgeCI",
+    category: "DevOps / CI-CD Engine",
+    tools: "Node.js, React, Git, Docker, Webhooks",
+    image: "/images/forgeci.png",
+    link: "https://github.com/sameeermokhasi/forgeCI.git",
   },
 ];
 

@@ -48,7 +48,7 @@ const Career = () => {
               <div className="career-role">
                 <h4>Diploma in Computer Science</h4>
                 <h5>K.L.E C.I. Munavalli Polytechnic
-                  CET RANK: 470, 94%
+                  CET RANK: 470, CGPA : 9.2
                 </h5>
               </div>
               <h3>2022</h3>
