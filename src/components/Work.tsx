@@ -3,27 +3,28 @@ import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
+import cinesenseImg from "C:/Users/91807/.gemini/antigravity-ide/brain/dccc2cdf-1d56-4587-8654-0537cdd0e8a0/.user_uploaded/media_1787412449685.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
     name: "Voyago",
-    category: "Full Stack Web App",
+    category: "Mobility Backend & AI Trip Planner",
     tools: "React, Node.js, PostgreSQL, Python, AI/ML",
     image: "/images/voyago.png",
-    link: "https://github.com/sameeermokhasi/voyago.git",
+    link: "https://voyago-six-phi.vercel.app/",
   },
   {
     name: "CineSense",
     category: "Movie Recommendation & Streaming Engine",
     tools: "React, Node.js, PostgreSQL, Redis, Auth",
-    image: "/images/cinesense.png",
+    image: cinesenseImg,
     link: "https://cinesense-liard.vercel.app/",
   },
   {
     name: "VisionAI",
-    category: "Metal disc inspector",
+    category: "Automated Visual Defect Inspection",
     tools: "React, ML Engines, Yolov8, Metal discs",
     image: "/images/visionai.png",
     link: "https://github.com/sameeermokhasi/visual-prediction-system.git",
@@ -36,14 +37,8 @@ const projects = [
     link: "https://github.com/sameeermokhasi/traffic-optimizer.git",
   },
   {
-    name: "Project: Fitness",
-    category: "Selling my knowledge on Topmate site",
-    image: "/images/topmate.png",
-    link: "https://topmate.io/sameer_mokhasi",
-  },
-  {
     name: "ForgeCI",
-    category: "DevOps / CI-CD Engine",
+    category: "CI-CD Engine with Priority Scheduling",
     tools: "Node.js, React, Git, Docker, Webhooks",
     image: "/images/forgeci.png",
     link: "https://github.com/sameeermokhasi/forgeCI.git",

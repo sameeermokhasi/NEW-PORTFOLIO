@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const srcPath = "C:\\Users\\91807\\OneDrive\\Desktop\\sam resume 2.pdf";
+const srcPath = "C:\\Users\\91807\\OneDrive\\Desktop\\resume.pdf";
 const destPath = path.join(process.cwd(), "public", "NEW_RESUME.pdf");
 
 if (fs.existsSync(srcPath)) {

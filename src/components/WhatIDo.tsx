@@ -95,16 +95,16 @@ const WhatIDo = () => {
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
+                <div className="what-tags">DSA</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
+                <div className="what-tags">Python</div>
                 <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
+                <div className="what-tags">AI</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">ML</div>
+                <div className="what-tags">C++</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">FastAPI</div>
               </div>
               <div className="what-arrow"></div>
             </div>

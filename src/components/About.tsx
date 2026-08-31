@@ -6,7 +6,14 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Computer Science (Business Studies) undergrad at BMSCE with a keen interest in AI and building solutions that actually matter. I like breaking down complex problems and crafting experiences , both through code and through content I independently produce and edit. Fitness is a core part of my lifestyle; the same drive that pushes me through a tough workout shapes how I approach challenges in tech and creativity. I'm always learning, always iterating, and always looking for the next big idea to explore.
+          Computer Science (Business Studies) undergrad at BMSCE, building
+          full-stack and machine learning systems end-to-end — from FastAPI
+          backends to YOLOv8-based computer vision pipelines. I enjoy the
+          space where backend, ML, and frontend meet, and prefer
+          understanding a problem deeply over reaching for the first
+          framework that works. Solved 200+ DSA problems, shipped projects
+          across recommendation systems, real-time platforms, and computer
+          vision — always looking for the next real problem to solve.
         </p>
       </div>
     </div>

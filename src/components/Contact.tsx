@@ -38,14 +38,6 @@ const Contact = () => {
             >
               Linkedin <MdArrowOutward />
             </a>
-            <a
-              href="https://topmate.io/sameer_mokhasi"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Content and Fitness <MdArrowOutward />
-            </a>
           </div>
           <div className="contact-box">
             <h2>

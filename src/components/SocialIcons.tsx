@@ -69,11 +69,6 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="https://topmate.io/sameer_mokhasi" target="_blank">
-            <img src="/images/topmate-logo.png" alt="Topmate" style={{ width: "24px", height: "24px", borderRadius: "50%" }} />
-          </a>
-        </span>
-        <span>
           <a href="https://www.instagram.com/sam.beyondd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
             <FaInstagram />
           </a>
