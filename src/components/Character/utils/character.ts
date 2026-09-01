@@ -3,6 +3,7 @@ import { DRACOLoader, GLTF, GLTFLoader } from "three-stdlib";
 import { setCharTimeline, setAllTimeline } from "../../utils/GsapScroll";
 import { decryptFile } from "./decrypt";
 
+
 const setCharacter = (
   renderer: THREE.WebGLRenderer,
   scene: THREE.Scene,
@@ -36,6 +37,7 @@ const setCharacter = (
                 mesh.frustumCulled = true;
               }
             });
+
             resolve(gltf);
             setCharTimeline(character, camera);
             setAllTimeline();

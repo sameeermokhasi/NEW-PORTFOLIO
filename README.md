@@ -79,4 +79,4 @@ npm run dev
 - **Email**: [sameermokhasi022@gmail.com](mailto:sameermokhasi022@gmail.com)
 - **LinkedIn**: [linkedin.com/in/sameermokhasi](https://www.linkedin.com/in/sameermokhasi/)
 - **GitHub**: [github.com/sameeermokhasi](https://github.com/sameeermokhasi)
-- **Instagram**: [@sam.beyondd](https://www.instagram.com/sam.beyondd)
+- **Instagram**: [@sameeerrr._](https://www.instagram.com/sameeerrr._/)
