@@ -3,7 +3,6 @@ import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
-import cinesenseImg from "C:/Users/91807/.gemini/antigravity-ide/brain/dccc2cdf-1d56-4587-8654-0537cdd0e8a0/.user_uploaded/media_1787412449685.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,7 +18,7 @@ const projects = [
     name: "CineSense",
     category: "Movie Recommendation & Streaming Engine",
     tools: "React, Node.js, PostgreSQL, Redis, Auth",
-    image: cinesenseImg,
+    image: "/images/cinesense.png",
     link: "https://cinesense-liard.vercel.app/",
   },
   {
